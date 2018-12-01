@@ -1,0 +1,155 @@
+/* id="clock_frame" のdiv要素 */
+div#clock_frame
+{
+    /* 横幅を親要素であるbodyの100%(同じ幅)にする */
+    width: 100%;
+}
+
+/* span要素のデフォルト */
+span
+{
+    /* 本来はインライン要素であるspanをブロック要素として扱う */
+    display: block;
+    /* ここでは親要素であるdivの内部で右に寄せて配置させる */
+    float: right;
+    /* 横幅を親要素であるdivの85%にする */
+    width: 85%;
+}
+
+/* id="clock_date" のspan要素 */
+span#clock_date
+{
+    /* この要素の中におけるテキストを右詰めにする デフォルト値のtext-align:leftを上書き
+    text-align: right;
+    /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の0.5倍にする */
+    font-size: 3.0vw;
+    /* 右のパディングの幅を親要素であるdivで設定されたフォントサイズ(px)の0.5倍にする
+    padding-right: 3.0em;*/
+}
+
+/* id="clock_time" のspan要素 */
+span#clock_time
+{
+    /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の2倍にする */
+    font-size: 2em;
+}
+
+.navbar-default {
+	background-color:#484848;
+}
+.navbar-default .navbar-brand {
+	color:#fff;
+	font-size: 30px;
+}
+.navbar-default .navbar-brand:hover {
+	color:#fff;
+	font-size: 30px;
+}
+.navbar-default .navbar-nav > li > a {
+	color:#fff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:#fff;
+}
+
+input[name=btn_input] {
+    margin-top: 10px;
+    width: 80px;
+	padding: 7px;
+    font-size: 100%;
+    text-align: center;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+    background: #55acee;
+    border-radius: 3px;
+}
+input[name=btn_input]:active {
+    margin-top: 10px;
+    width: 80px;
+	padding: 7px;
+    font-size: 100%;
+    text-align: center;
+	color: black;
+	cursor: pointer;
+	border: none;
+    background: #fff;
+    border-radius: 3px;
+}
+input[name=btn_input2] {
+    margin-top: 10px;
+    width: 80px;
+	padding: 7px;
+    font-size: 100%;
+    text-align: center;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+    background: #2ecc71;
+    border-radius: 3px;
+}
+input[name=btn_input2]:active {
+    margin-top: 10px;
+    width: 80px;
+	padding: 7px;
+    font-size: 100%;
+    text-align: center;
+	color: black;
+	cursor: pointer;
+	border: none;
+    background:#fff;
+    border-radius: 3px;
+}
+input[name=btn_input3] {
+    margin-top: 10px;
+    width: 80px;
+	padding: 7px;
+    font-size: 100%;
+    text-align: center;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+    background: #f0ad4e;
+    border-radius: 3px;
+}
+input[name=btn_input3]:active {
+    margin-top: 10px;
+    width: 80px;
+	padding: 7px;
+    font-size: 100%;
+    text-align: center;
+	color: black;
+	cursor: pointer;
+	border: none;
+    background:#fff;
+    border-radius: 3px;
+}
+input[name=btn_input4] {
+    margin-top: 10px;
+    width: 80px;
+	padding: 7px;
+    font-size: 100%;
+    text-align: center;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+    background: #c9302c;
+    border-radius: 3px;
+}
+input[name=btn_input4]:active {
+    margin-top: 10px;
+    width: 80px;
+	padding: 7px;
+    font-size: 100%;
+    text-align: center;
+	color: black;
+	cursor: pointer;
+	border: none;
+    background:#fff;
+    border-radius: 3px;
+}
+textarea.form-control {
+    margin-top:30px;
+    width:500px;
+}
+

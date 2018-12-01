@@ -1,0 +1,93 @@
+.navbar-default {
+	background-color:#484848;
+}
+.navbar-default .navbar-brand {
+	color:#fff;
+	font-size: 30px;
+}
+.navbar-default .navbar-brand:hover {
+	color:#fff;
+	font-size: 30px;
+}
+.navbar-default .navbar-nav > li > a {
+	color:#fff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:#fff;
+}
+
+table#attendance {
+    margin: 14px 0px 10px 0px;
+    width: 100%;
+    table-layout:fixed;
+    border-collapse: collapse;
+    border: solid 2px #808080;/*表全体を線で囲う*/
+}
+
+#attendance th {
+    text-align: center;
+    border: solid 1px #C0C0C0;
+    padding: 10px;/*上下左右10pxずつ*/
+    color: #FFFFFF;/*文字色*/
+    background: #6495ED;/*背景色*/
+}
+
+#attendance td {
+    text-align: center;
+    border: solid 1px #C0C0C0;
+    padding: 10px 10px;/*上下3pxで左右10px*/
+}
+
+#attendance td.date, #attendance td.day {
+    text-align: center;
+}
+
+#attendance th.day {
+    width: 4.0em;
+}
+
+th.remarks {
+    width: 18em;
+}
+
+#attendance th.edit {
+    width: 10.0em;
+}
+
+table#attendance2 {
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    table-layout:fixed;
+    border-collapse: collapse;
+    border: solid 2px #808080;/*表全体を線で囲う*/
+}
+
+#attendance2 th {
+    text-align: center;
+    border: solid 1px #C0C0C0;
+    padding: 10px;/*上下左右10pxずつ*/
+    color: #FFFFFF;/*文字色*/
+    background: #6495ED;/*背景色*/
+}
+
+#attendance2 td {
+    text-align: center;
+    border: solid 1px #C0C0C0;
+    padding: 10px 10px;/*上下3pxで左右10px*/
+}
+
+#attendance2 td.date, #attendance td.day {
+    text-align: center;
+}
+
+#attendance2 th.day {
+    width: 4.0em;
+}
+
+input[readonly].form-control{
+    background-color:#fff;
+}
+
+textarea[readonly].form-control{
+    background-color:#fff;
+}
